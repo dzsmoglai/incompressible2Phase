@@ -1,0 +1,8 @@
+incompressibleTwoPhase0TurbulenceModel.C
+
+turbulentTwoPhase0TransportModels/turbulentTwoPhase0TransportModels.C
+
+BCs = turbulentTwoPhase0TransportModels/RAS/derivedFvPatchFields
+turbulentTwoPhase0TransportModels/derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction0/alphatJayatillekeWallFunctionFvPatchScalarField0.C
+
+LIB = $(FOAM_LIBBIN)/libincompressibleTwoPhase0TurbulenceModels

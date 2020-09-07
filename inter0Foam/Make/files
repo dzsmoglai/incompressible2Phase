@@ -1,0 +1,3 @@
+inter0Foam.C
+
+EXE = $(FOAM_APPBIN)/inter0Foam
